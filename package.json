@@ -1,0 +1,11 @@
+{
+  "name": "Recipe.Report",
+  "version": "0.0.1",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "1.7.6"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/electron ."
+  }
+}
