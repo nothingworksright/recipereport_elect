@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "main": "main.js",
   "devDependencies": {
-    "electron": "1.7.6"
+    "bootstrap": "4.0.0-alpha.6",
+    "electron": "1.7.6",
+    "electron-pug": "1.5.1"
   },
   "scripts": {
     "start": "./node_modules/.bin/electron ."
