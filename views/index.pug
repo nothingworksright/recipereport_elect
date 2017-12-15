@@ -1,0 +1,48 @@
+doctype html
+include head
+body
+  .container
+    h2.form-signin
+      |🗃 Recipe.Report
+    form.form-signin
+      h3.form-signin-heading.mb-3
+        |Please sign in
+      label(for='inputEmail' class='sr-only')
+        |Email address
+      input(
+        type='email',
+        id='inputEmail',
+        class='form-control',
+        placeholder='Email address',
+        style='border-color: blue;',
+        required,
+        autofocus
+      )
+      label(for='inputPassword' class='sr-only')
+        |Password
+      input(
+        type='password',
+        id='inputPassword',
+        class='form-control',
+        placeholder='Password',
+        style='border-color: blue;',
+        required
+      )
+      .checkbox
+        label.small.muted
+          input(
+            type='checkbox',
+            value='remember-me',
+            style='vertical-align: middle;'
+          )
+          |  Remember me
+      .btn.btn-lg.btn-outline-primary.bg-faded.btn-block(
+        id='submitButton',
+        style='border-color: blue;'
+      )
+        |Sign in
+      .small.info.mt-3
+        a(href='')
+          |  No account yet? Create a new account
+include scripts
+script(src='../public/js/index.js')

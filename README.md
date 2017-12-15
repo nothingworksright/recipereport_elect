@@ -1,3 +1,3 @@
-# 🗃 Recipe.Report Cross-Platform App  
+# 🗃 Recipe.Report Electron App  
 
-Recipe.Report cross-platform application.  
+Recipe.Report Electron application.  
